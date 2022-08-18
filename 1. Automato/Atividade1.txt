@@ -1,0 +1,10 @@
+Desenvolva um programa em computador (linguagem a sua escolha) que simule o processamento de qualquer autômato finito determinístico como segue:
+1) Entradas: Alfabeto, conjunto de estados, função de transição, estado inicial,
+conjunto de estados finais e as palavras a serem processadas.
+2) Saídas: Condição de parada ACEITA/REJEITA e identificação do estado de
+parada.
+Dica: A parte central do algoritmo de simulação é realmente pequena, e pode ser
+expressa em poucas unidades de linha de código e consiste, basicamente, em um
+algoritmo que controla a mudança de estado do autômato a cada símbolo lido da
+entrada. Tal resultado comprova a simplicidade de se desenvolver um simulador
+genérico de autômato finito.
